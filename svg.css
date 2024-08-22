@@ -1,0 +1,166 @@
+body
+{
+ overflow: hidden;
+ background-color:black;
+}
+#svgbox
+{
+    width:70vmin;
+    height:70vmin;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} 
+.text
+{
+fill:white;
+}
+.circle-one,.circle-two
+{
+    stroke:#f00501;
+    stroke-width: 2;
+    fill:#f4f4f4;
+}
+.namam
+{
+    stroke:white;
+    stroke-width:2;
+}
+.namam-bottom
+{
+    stroke:white;
+    stroke-width:1.2;
+    fill:white;
+}
+.namam-middle{
+    stroke:#ee0503;
+    stroke-width:.5;
+    fill:#ee0503;
+}
+.smile-upline
+{
+    stroke:#ee0503;
+    stroke-width:.2;
+    fill:none;
+}
+
+.nose-circle,.nose-circle-design{
+    stroke:white;
+    stroke-width:.2;
+    fill:#eece0a;
+}
+.nose-circle-design {
+    fill:none;
+    stroke: #a2224d;
+    stroke-width: 0.5;
+    transform-origin: 65px 72px;
+    animation: rotateCircle 4s linear infinite;
+    animation-delay: calc(var(--i) * 0.2s); 
+}
+
+
+
+
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2table
+Big circle 
+clock down
+counter clock up 
+10 =20
+20=40
+30=60
+40=80
+50=100
+60=120
+70=140
+80=160
+90=180
+100=200
+110=220
+120=240
+130=260
+140=280
+180=300
+190=320
+200=340
+210=360*
+
+
+for 300=5
+200=3
+100=1/
+
